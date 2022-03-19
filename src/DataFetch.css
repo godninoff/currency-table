@@ -1,0 +1,44 @@
+.table-header {
+  background-color: rgb(238, 188, 29);
+  font-weight: bold;
+  font-size: large;
+  max-width: 768px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px 10px;
+}
+
+.table-header__value {
+  background-color: transparent;
+  color: black;
+}
+
+.currency-list {
+  max-width: 768px;
+  margin: auto;
+}
+
+.currency-container {
+  background-color: #222222;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #dadada;
+  height: 40px;
+  align-items: center;
+  padding: 20px;
+}
+
+.currency-table:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.green {
+  color: lime;
+}
+
+.red {
+  color: #ee3465;
+}
